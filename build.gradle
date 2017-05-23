@@ -1,4 +1,5 @@
 apply plugin: 'java'
+sourceCompatibility = 1.8
 apply plugin: 'pmd'
 apply plugin: 'checkstyle'
 apply plugin: 'application'
