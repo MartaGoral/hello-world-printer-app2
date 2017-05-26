@@ -1,7 +1,7 @@
 apply plugin: 'java'
 sourceCompatibility = 1.8
 apply plugin: 'pmd'
-apply plugin: 'checkstyle'
+//apply plugin: 'checkstyle'
 apply plugin: 'application'
 apply plugin: 'eclipse'
 apply plugin: 'findbugs'
@@ -50,7 +50,7 @@ jar {
     configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
   }
 }
-
+/*
 checkstyle {
   toolVersion = '7.6'
 }
@@ -60,4 +60,5 @@ tasks.withType(Checkstyle) {
     html.enabled = true
     html.destination rootProject.file("build/reports/checkstyle.html")
   }
+*/
 }
