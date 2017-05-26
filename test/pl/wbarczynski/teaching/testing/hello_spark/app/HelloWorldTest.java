@@ -1,4 +1,4 @@
-package pl.wbarczynski.teaching.testing.hello_spark.app;
+package pl.wbarczynski.teaching.testing.hellospark.app;
 
 import static org.junit.Assert.assertEquals;
 

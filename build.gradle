@@ -32,7 +32,7 @@ repositories {
     mavenCentral()
 }
 
-mainClassName = "pl.wbarczynski.teaching.testing.hello_spark.app.HelloWorld"
+mainClassName = "pl.wbarczynski.teaching.testing.hellospark.app.HelloWorld"
 
 dependencies {
     compile group: 'com.sparkjava', name: 'spark-core', version: '2.6.0'
