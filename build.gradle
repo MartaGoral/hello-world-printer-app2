@@ -50,6 +50,11 @@ jar {
     configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
   }
 }
+
+findbugs {
+   ignoreFailures = true
+}
+
 /*
 checkstyle {
   toolVersion = '7.6'
