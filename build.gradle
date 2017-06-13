@@ -51,6 +51,10 @@ jar {
   }
 }
 
+findbugs {
+   ignoreFailures = true
+}
+
 checkstyle {
   toolVersion = '7.6'
 }
@@ -60,4 +64,8 @@ tasks.withType(Checkstyle) {
     html.enabled = true
     html.destination rootProject.file("build/reports/checkstyle.html")
   }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5'
 }
