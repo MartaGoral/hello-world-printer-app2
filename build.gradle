@@ -55,7 +55,6 @@ findbugs {
    ignoreFailures = true
 }
 
-
 checkstyle {
   toolVersion = '7.6'
 }
@@ -67,3 +66,6 @@ tasks.withType(Checkstyle) {
   }
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5'
+}
