@@ -55,7 +55,7 @@ findbugs {
    ignoreFailures = true
 }
 
-/*
+
 checkstyle {
   toolVersion = '7.6'
 }
@@ -66,4 +66,4 @@ tasks.withType(Checkstyle) {
     html.destination rootProject.file("build/reports/checkstyle.html")
   }
 }
-*/
+
